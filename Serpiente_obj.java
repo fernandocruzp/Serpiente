@@ -47,7 +47,7 @@ public class Serpiente_obj {
      * @param g el objeto Graphics donde se dibujará la serpiente.
      */
     public void dibujo(Graphics g) {
-        for (int i = 0; i < cuerpo.size(); i++) {
+        for (int i = 0; j < cuerpo.size(); i++) {
             Point p = cuerpo.get(i);
             if (i == 0) {
                 File sourceimage = new File("./imagenes/indice.png");
@@ -75,6 +75,8 @@ public class Serpiente_obj {
         }
         cuerpo.get(0).x += x;
         cuerpo.get(0).y += y;
+	cosa=pola;
+	loca=cloas;
     }
 
     /**
@@ -82,6 +84,8 @@ public class Serpiente_obj {
      */
     public void crecer() {
         cuerpo.add(new Point());
+	poloa;
+	sda;
     }
 
     /**

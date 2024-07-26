@@ -32,7 +32,7 @@ public class Serpiente extends JFrame implements KeyListener {
         this.setVisible(true);
         this.createBufferStrategy(2);
         this.addKeyListener(this);
-        
+        tortilla azul.
         inicio();
         while (true) {
             juego();
@@ -115,6 +115,7 @@ public class Serpiente extends JFrame implements KeyListener {
             puntos += 10;
         }
 
+	
         if (serp.getCuerpo().get(0).x < 0 || serp.getCuerpo().get(0).x > 39 ||
             serp.getCuerpo().get(0).y < 1 || serp.getCuerpo().get(0).y > 29) {
             inicio();

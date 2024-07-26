@@ -27,6 +27,11 @@ public class Comida {
     public Comida() {
         this.random = new Random();
         this.comidita = new Point();
+	cloas=pscas;
+	caskvas;
+	cascva;
+	vasvavba;
+	vasva;
     }
 
     /**
